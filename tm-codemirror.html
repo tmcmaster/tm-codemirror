@@ -1,0 +1,34 @@
+<link rel="import" href="../polymer/polymer.html">
+
+<!--
+`tm-codemirror`
+Polymer element that wraps the codemirror editor.
+
+@demo demo/index.html 
+-->
+
+<dom-module id="tm-codemirror">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+    </style>
+    <h2>Hello [[prop1]]</h2>
+  </template>
+
+  <script>
+    Polymer({
+
+      is: 'tm-codemirror',
+
+      properties: {
+        prop1: {
+          type: String,
+          value: 'tm-codemirror',
+        },
+      },
+
+    });
+  </script>
+</dom-module>
